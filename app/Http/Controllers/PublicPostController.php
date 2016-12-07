@@ -25,6 +25,9 @@ class PublicPostController extends Controller
      */
     public function show($id) {
         $post = Post::find($id);
+        if (!$post) {
+            abort(404);
+        }
         return View('public.show', ['post' => $post]);
     }
 }

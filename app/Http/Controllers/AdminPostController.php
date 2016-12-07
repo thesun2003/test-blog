@@ -35,6 +35,9 @@ class AdminPostController extends Controller
      */
     public function show($id) {
         $post = Post::find($id);
+        if (!$post) {
+            abort(404);
+        }
         return View('admin.posts.show', ['post' => $post]);
     }
 

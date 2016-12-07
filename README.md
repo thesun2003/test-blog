@@ -10,5 +10,6 @@
 - Update .env with appropriate settings
 - Run "php artisan migrate"
 - Run "php artisan serve" to start Development server on http://localhost:8000/
+- Run "phpunit" to see that tests passed
 
 p.s. Admin page available only for signed in users. You need to Register before Login.
