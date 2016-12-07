@@ -233,4 +233,6 @@ return [
 
     ],
 
+    'edit_post_allowed_html_tags' => '<b><strong><i><br><p><div><span>',
+
 ];

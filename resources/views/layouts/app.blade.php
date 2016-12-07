@@ -90,5 +90,7 @@
 
     <!-- Scripts -->
     <script src="/js/app.js"></script>
+    @section('external_js')
+    @show
 </body>
 </html>

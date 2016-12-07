@@ -26,3 +26,10 @@
     {!! Form::close() !!}
 
 @endsection
+
+@section('external_js')
+    <script src="//cdn.ckeditor.com/4.6.0/basic/ckeditor.js"></script>
+    <script>
+        CKEDITOR.replace( 'content' );
+    </script>
+@endsection
